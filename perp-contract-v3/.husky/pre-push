@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# TODO: disable it for now, too annoying. enable it when the codebase is more stable
+# npm run gas-snapshot:check
