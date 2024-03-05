@@ -12,7 +12,8 @@ Optimism/Blast
 ___
 
 ### Q: Which ERC20 tokens do you expect will interact with the smart contracts? 
-USDT or USDC
+- USDT or USDC
+- Except `SpotHedgeBaseMaker`: it may also interact with other non-collateral tokens as part of its hedging strategy, these tokens are assumed not to possess any "weird" traits.
 ___
 
 ### Q: Which ERC721 tokens do you expect will interact with the smart contracts? 
